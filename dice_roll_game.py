@@ -8,8 +8,8 @@ def dice_roll_game():
     print(f"You: {user} | Computer: {comp}")
     
     if user > comp:
-        print("Result: You Win!")
+        print("Result: Amazing You Won the game!")
     elif comp > user:
-        print("Result: Computer Wins!")
+        print("Result: Oooo Computer Won the game!")
     else:
         print("Result: DRAWW!")
