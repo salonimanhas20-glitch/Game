@@ -11,7 +11,9 @@ def main():
         elif (choice == "2"):
             dice_roll_game()
         elif (choice == "3"):
+            print("Thank you for playing the game...")
             break
+            
         else:
             print("Try again...")
 main()
